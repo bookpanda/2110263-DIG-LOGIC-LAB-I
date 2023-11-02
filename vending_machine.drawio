@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T11:55:11.974Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="X7XfRDWPAuftTvOFAPZI" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T11:57:46.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="s_HwwDXksDA8m3FmfUEH" version="22.0.8" type="github">
   <diagram name="Page-1" id="a-lz978gGx6K19uARcvc">
-    <mxGraphModel dx="2643" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2443" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YPnYqugieRIAXHoPEM4v-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YPnYqugieRIAXHoPEM4v-1" target="YPnYqugieRIAXHoPEM4v-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YPnYqugieRIAXHoPEM4v-1" value="Ready&lt;br&gt;CoffeeOut &amp;lt;- 0&lt;br&gt;TeaOut &amp;lt;- 0&lt;br&gt;Change5 &amp;lt;- 0&lt;br&gt;Change10 &amp;lt;- 0&lt;br&gt;Change20 &amp;lt;- 0&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Balance &amp;lt;- 0&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+        <mxCell id="YPnYqugieRIAXHoPEM4v-1" value="CoffeeOut &amp;lt;- 0&lt;br&gt;TeaOut &amp;lt;- 0&lt;br&gt;Change5 &amp;lt;- 0&lt;br&gt;Change10 &amp;lt;- 0&lt;br&gt;Change20 &amp;lt;- 0&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Balance &amp;lt;- 0&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="YPnYqugieRIAXHoPEM4v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YPnYqugieRIAXHoPEM4v-2" edge="1">
@@ -32,7 +32,7 @@
         <mxCell id="YPnYqugieRIAXHoPEM4v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YPnYqugieRIAXHoPEM4v-9" target="YPnYqugieRIAXHoPEM4v-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YPnYqugieRIAXHoPEM4v-9" value="P5 &amp;lt;- P5&lt;br&gt;P10 &amp;lt;- P10&lt;br&gt;P20 &amp;lt;- P20&lt;br&gt;or money &amp;lt;- P5+P10+P20&lt;br&gt;Pcoffee &amp;lt;- Pcoffee&lt;br&gt;Ptea &amp;lt;- Ptea&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pchange &amp;lt;- Pchange&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pnext &amp;lt;- Pnext&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;reset &amp;lt;- reset&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+        <mxCell id="YPnYqugieRIAXHoPEM4v-9" value="P5 &amp;lt;- P5&lt;br&gt;P10 &amp;lt;- P10&lt;br&gt;P20 &amp;lt;- P20&lt;br&gt;&lt;br&gt;Pcoffee &amp;lt;- Pcoffee&lt;br&gt;Ptea &amp;lt;- Ptea&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pchange &amp;lt;- Pchange&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pnext &amp;lt;- Pnext&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="290" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="B4vN6VEIP0nUrANsFfqJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPnYqugieRIAXHoPEM4v-10" target="B4vN6VEIP0nUrANsFfqJ-1">
@@ -263,7 +263,7 @@
         </mxCell>
         <mxCell id="B4vN6VEIP0nUrANsFfqJ-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B4vN6VEIP0nUrANsFfqJ-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="481.88000000000005" y="105" as="targetPoint" />
+            <mxPoint x="740" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B4vN6VEIP0nUrANsFfqJ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B4vN6VEIP0nUrANsFfqJ-64">
@@ -430,6 +430,24 @@
               <mxPoint x="900" y="415" />
               <mxPoint x="900" y="780" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4vN6VEIP0nUrANsFfqJ-99" value="Pnext" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="90" width="71.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B4vN6VEIP0nUrANsFfqJ-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775.49" y="120" as="sourcePoint" />
+            <mxPoint x="775.97" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4vN6VEIP0nUrANsFfqJ-101" value="CoffeeOut &amp;lt;- 0&lt;br&gt;TeaOut &amp;lt;- 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711.89" y="150" width="127.49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B4vN6VEIP0nUrANsFfqJ-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775.1800000000003" y="200" as="sourcePoint" />
+            <mxPoint x="776" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
