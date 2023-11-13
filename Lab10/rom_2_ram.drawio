@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T06:15:09.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="df_yPURnWO7daHYNyv1v" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T06:18:23.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EmvKM937jowXgArw8kV7" version="22.1.0" type="github">
   <diagram name="Page-1" id="JXgnwg63voDV1en61_65">
     <mxGraphModel dx="956" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
         <mxCell id="wS83XRQ52d2ZgOB3fWDj-22" value="addr &amp;lt;- 0&lt;br&gt;sel &amp;lt;- 1&lt;br&gt;val &amp;lt;- rom[0]" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="70.37" y="600" width="124.63" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wS83XRQ52d2ZgOB3fWDj-26" value="sel &amp;lt;- 0&lt;br&gt;addr &amp;lt;- 0&lt;br&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="wS83XRQ52d2ZgOB3fWDj-26" value="sel &amp;lt;- 0&lt;br&gt;addr &amp;lt;- 0&lt;br&gt;val &amp;lt;- 0" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="370" y="760" width="71.82" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wS83XRQ52d2ZgOB3fWDj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
@@ -150,6 +150,15 @@
           <mxGeometry x="-0.9374" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wS83XRQ52d2ZgOB3fWDj-37" value="ram[addr] &amp;lt;- val&lt;br&gt;addr &amp;lt;- addr + 1&lt;br&gt;lut[val] &amp;lt;- lut[val] - 1" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wS83XRQ52d2ZgOB3fWDj-38" value="cou &amp;gt; 0" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="367.19000000000005" y="620" width="77.44" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS83XRQ52d2ZgOB3fWDj-39" value="lut[val] &amp;gt; 0" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="367.19000000000005" y="680" width="77.44" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
